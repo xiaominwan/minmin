@@ -1,0 +1,180 @@
+#header {
+  background-color: #ff841d;
+  width: 100%;
+}
+#header .header_logo {
+  float: left;
+}
+#header .header_logo a img {
+  height: 25px;
+}
+#header .header_app {
+  float: right;
+}
+#header .header_app a img {
+  width: 34px;
+  height: 34px;
+}
+#search form {
+  positon: relative;
+  height: 50px;
+  padding-right: 60px;
+}
+#search form .search-l {
+  width: 100%;
+  height: 30px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  padding-right: 10px;
+}
+#search form .search-r {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  color: #fff;
+  background-color: #ff841d;
+}
+#menu {
+  padding: 10px;
+  font-size: 14px;
+}
+#menu .item {
+  padding: 10px 0px;
+}
+#menu .item a {
+  display: block;
+  text-align: center;
+}
+#menu .item a img {
+  width: 50px;
+  height: 50px;
+}
+#menu .item a p {
+  font-size: 12px;
+}
+#sale {
+  width: 100%;
+}
+#sale .title {
+  background-color: #ff841d;
+  height: 35px;
+  width: 100%;
+  padding: 0 10px;
+}
+#sale .title h4 {
+  padding-top: 8px;
+}
+#sale .title h4 img {
+  width: 20px;
+  float: right;
+}
+#sale .title span {
+  color: #fff;
+}
+#sale .disslist {
+  padding: 10px 0;
+  border-bottom: 1px solid #a1a1a1;
+}
+#sale .disslist .media {
+  color: #a1a1a1;
+}
+#sale .disslist .media a img {
+  width: 100px;
+}
+#sale .disslist .media .media-body h4 span {
+  color: red;
+}
+#sale .disslist .media .media-body p {
+  psition: relative;
+  margin-top: 20px;
+}
+#sale .disslist .media .media-body p span:nth-child(2) {
+  float: right;
+  position: absolute;
+  right: 8px;
+}
+#sale .dissmore {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+#sale .dissmore a {
+  display: block;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+}
+#sale .dissmore a p {
+  height: 30px;
+  border: 1px solid #a1a1a1;
+  border-radius: 12px;
+  background-color: yellowgreen;
+}
+#tuijian .title {
+  background-color: #ff841d;
+  height: 35px;
+  width: 100%;
+  padding: 0 10px;
+}
+#tuijian .title h4 {
+  padding-top: 8px;
+}
+#tuijian .title span {
+  color: #fff;
+}
+#tuijian .title img {
+  width: 20px;
+  float: right;
+}
+#footer .modal-footer {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+#footer .modal-footer div {
+  border: 1px solid #a1a1a1;
+}
+#footer .modal-footer div a {
+  display: block;
+  font-size: 14px;
+  color: #333;
+}
+#footer .modal-footer div a img {
+  width: 15px;
+  margin-top: -3px;
+}
+#footer .modal-footer .width30 {
+  width: 30%;
+  float: left;
+}
+#footer .modal-footer .width40 {
+  width: 40%;
+  float: left;
+}
+#footer .p1 {
+  text-align: center;
+}
+#footer .p1 a span {
+  display: inline-block;
+}
+#footer .p1 a *:first-child {
+  color: red;
+}
+#footer .p1 a *:nth-child(2) {
+  color: #000;
+}
+#footer .p1 a *:nth-child(3) {
+  color: #ccc;
+}
+#footer .p2 {
+  text-align: center;
+}

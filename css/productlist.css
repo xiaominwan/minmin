@@ -1,0 +1,87 @@
+#productlist #nav {
+  height: 40px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#productlist #nav a {
+  display: inline-block;
+  line-height: 40px;
+}
+#productlist #nav button {
+  margin-top: 1px;
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a1a1a1;
+}
+#productlist #productPage {
+  display: flex;
+  height: 40px;
+  padding-top: 10px;
+}
+#productlist #productPage .pagelist {
+  flex: 1;
+  float: left;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+#productlist #productPage .pagelist #productlistSelect {
+  width: 70px;
+  height: 30px;
+}
+#productlist #productPage .pagelist button {
+  height: 30px;
+  width: 70px;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+}
+#productlist #productContent .media {
+  height: 140px;
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+#productlist #productContent .media a {
+  padding-right: 5px;
+}
+#productlist #productContent .media a img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+#productlist #productContent .media .media-body .price {
+  color: red;
+  width: 366px;
+}
+#productlist #productContent .media .media-body .price span {
+  line-height: 28px;
+  font-size: 16px;
+}
+#productlist #productContent .media .media-body .price i {
+  font-size: 12px;
+}
+#productlist #productContent .media .media-body .info {
+  color: #a1a1a1;
+  font-size: 12px;
+}
+#productlist #productContent .media .media-body .info *:nth-child(2) {
+  float: right;
+}
+#productlist #productContent .media .media-body .media-heading {
+  min-height: 54px;
+  line-height: 22px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  color: #333333;
+  word-break: break-all;
+  font-size: 15px;
+  line-height: 28px;
+}
+#productlist #productContent .media .media-body .media-heading span {
+  color: #ff841d;
+}

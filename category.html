@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+
+
+</head>
+<body>
+<!--头部-->
+<header id="header">
+    <div class="header_logo"><a href=""><img src="images/header_logo.png" alt=""></a></div>
+    <div class="header_app"><a href=""><img src="images/header_app.png" alt=""></a></div>
+
+</header>
+<!--搜索部分-->
+<section id="search">
+    <form action=" 提交地址">
+        <input type="text" placeholder="    慢慢搜" class="search-l" >
+        <input type="button" value="搜索" class="search-r">
+   </form>
+</section>
+<!--商品列表开始-->
+<section id="categoryMenu">
+    <ul id="categoryuu">
+        <li class="categoryTitle cateTitle0" titleId="0"><span>大家电</span><i class="fr"></i></li>
+        <div class="categoryList categoryList0 row">
+            <div class="categoryContent col-xs-4"><a href="跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"><a href="跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"><a href="跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"><a href="跳转">电视</a></div>
+
+        </div>
+        <li class="categoryTitle cateTitle1"><span >大家电</span><i class="fr"></i>
+        </li>
+        <div></div>
+        <li class="categoryTitle cateTitle2"><span>大家电</span><i class="fr"></i></li>
+        <div></div>
+        <li class="categoryTitle cateTitle3"><span>大家电</span><i class="fr"></i></li>
+        <div></div>
+        <li class="categoryTitle cateTitle4"><span>大家电</span><i class="fr"></i></li>
+        <div></div>
+        <li class="categoryTitle cateTitle5"><span>大家电</span><i class="fr"></i></li>
+        <div></div>
+    </ul>
+
+</section>
+
+        <!--商品列表结束-->
+        <footer id="footer">
+            <div class="modal-footer">
+                <div class="width30"><a href="跳转">登录</a></div>
+                <div class="width30"><a href="跳转">登录</a></div>
+                <div class="width40"><a href="跳转"><img src="http://www.zuyushop.com/wap/images/top.jpg" alt="">登录</a>
+                </div>
+            </div>
+            <p class="p1">
+                <a href="跳转">
+                    <span> 手机APP下载 </span><span>慢慢买手机版</span><span>-掌上比价平台</span>
+                </a>
+            </p>
+            <p class="p2">  <a href="">m.manmanbuy.com</a></p>
+ </footer>
+<!--动态渲染模板-->
+<script type="text/html" id="categoryTitleTpl">
+{{each result as value index}}
+    <li class="categoryTitle categoryTitle{{value.titieId}}" titleId="{{value.titleId}}"><span>{{value.title}}</span><i class="fr"></i></li>
+    <div class="categoryList categoryList{{value.titleId}} row"></div>
+    {{/each}}
+
+</script>
+<script type="text/html" id="categoryListTpl">
+{{each result as value index}}
+    <div class="categoryContent col-xs-4"categoryId="{{value.categoryId}}" >
+        <a href="productlist.html?category={{value.category}}&{{categoryid={{value.categoryId}}">{{value.category}}</a>
+    </div>
+{{/each}}
+</script>
+<script src="js/29url.js"></script>
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./js/template.js"></script>
+<script src="js/category.js"></script>
+
+</body>
+</html>
